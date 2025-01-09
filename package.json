@@ -22,7 +22,7 @@
   "author": "Dilshadd Matkulov",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/dmatkulov/gigspace-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
