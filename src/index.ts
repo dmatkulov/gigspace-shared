@@ -13,8 +13,8 @@ export {
   IReduxLogout,
   IAuthResponse,
   IAuthUser
-} from './types/auth.interface';
-export { IBuyerDocument, IReduxBuyer } from './types/buyer.interface';
+} from './auth.interface';
+export { IBuyerDocument, IReduxBuyer } from './buyer.interface';
 export {
   IConversationDocument,
   IMessageDocument,
@@ -23,7 +23,7 @@ export {
   IChatSellerProps,
   IChatBuyerProps,
   IChatMessageProps
-} from './types/chat.interface';
+} from './chat.interface';
 export {
   GigType,
   ICreateGig,
@@ -35,7 +35,7 @@ export {
   IGigViewReviewsProps,
   IGigInfo,
   IGigTopProps
-} from './types/gig.interface';
+} from './gig.interface';
 export {
   IOrderNotifcation,
   IOffer,
@@ -45,14 +45,14 @@ export {
   IOrderReview,
   IOrderMessage,
   IOrderDocument
-} from './types/order.interface';
+} from './order.interface';
 export {
   IReviewMessageDetails,
   IRatingTypes,
   IRatingCategories,
   IRatingCategoryItem,
   IReviewDocument
-} from './types/review.interface';
+} from './review.interface';
 export {
   ISearchResult,
   IHitsTotal,
@@ -60,7 +60,7 @@ export {
   IQueryString,
   ITerm,
   IPaginateProps
-} from './types/search.interface';
+} from './search.interface';
 export {
   SellerType,
   ILanguage,
@@ -68,9 +68,9 @@ export {
   IEducation,
   ICertificate,
   ISellerDocument
-} from './types/seller.interface';
-export { IEmailLocals } from './types/email.interface';
-export { uploads, videoUpload } from './helpers/cloudinary-upload';
+} from './seller.interface';
+export { IEmailLocals } from './email.interface';
+export { uploads, videoUpload } from './cloudinary-upload';
 export {
   IErrorResponse,
   IError,
@@ -81,7 +81,7 @@ export {
   FileTooLargeError,
   ServerError,
   ErrnoException
-} from './helpers/error-handler';
-export { verifyGatewayRequest } from './helpers/gateway-middleware';
-export { winstonLogger } from './helpers/logger';
-export { firstLetterUppercase, toUpperCase, lowerCase, isEmail, isDataURL } from './helpers/helpers';
+} from './error-handler';
+export { verifyGatewayRequest } from './gateway-middleware';
+export { winstonLogger } from './logger';
+export { firstLetterUppercase, toUpperCase, lowerCase, isEmail, isDataURL } from './helpers';
